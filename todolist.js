@@ -1,7 +1,7 @@
 //GLOBAL VARIABLES-------------------------------------------------------------------------------------
 const body = document.querySelector("body");
 let pageName = "";
-let userEmail = "rgonzalesm1997@gmail.com"; //email set only for testing purposes
+let userEmail = ""; 
 let form = null;
 let error = null;
 let ul = null;
