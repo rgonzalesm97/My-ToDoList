@@ -1,0 +1,119 @@
+/*GENERAL*/
+#error{
+    color: red;
+}
+
+
+/*HOME PAGE*/
+#homePage{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#homeContainer{
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    height: 500px;
+    width: 300px;
+}
+
+#homeContainer button{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*SING IN PAGE*/
+#signUpFormPage{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#signUpFormContainer{
+    position: absolute;
+    top: 20%;
+}
+
+#signUpFormContainer h1{
+    text-align: center;
+}
+
+/*LOG IN PAGE*/
+#logInFormPage{
+    display: flex;
+    justify-content: center;
+}
+
+#logInFormContainer{
+    position: absolute;
+    top: 20%;
+}
+
+#logInFormContainer h1{
+    text-align: center;
+}
+
+/*DASHBOARD*/
+#dashboardContainer{
+    position: absolute;
+    min-width: 500px;
+}
+
+.dashboardHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+#allLists{
+    list-style: none;
+    font-size: 25px;
+}
+
+#allLists li{
+    margin: 10px 0px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(207, 174, 82, 0.5);
+}
+
+#allLists li:hover{
+    cursor: pointer;
+}
+
+/*LIST*/
+#listContainer{
+    position: absolute;
+    min-width: 500px;
+}
+
+.listHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+
+
+#actuallist{
+    list-style: none;
+    font-size: 20px;
+}
+
+/*SETTINGS*/
+#settingsPage{
+    display: flex;
+    justify-content: center;
+}
+
+#settingsContainer{
+    position: absolute;
+    top: 20%;
+}
